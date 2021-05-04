@@ -1,0 +1,13 @@
+@import url(./homepage.scss);
+body {
+  background-color: #120828;
+  color: #ffe5cf;
+}
+
+a {
+  color: #ffe5cf;
+}
+
+ul {
+  list-style-type: none;
+}/*# sourceMappingURL=main.css.map */

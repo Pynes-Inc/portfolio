@@ -1,3 +1,5 @@
+<!-- https://github.com/house9/jquery-iframe-auto-height/find/master -->
+<!-- auto-size plugin for yourube video ^^^^^ -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,20 +22,90 @@
   </head>
 
   <body>
-    <header class=" "></header>
-    <nav class="nav">
-      <ul class="nav-ul">
-        <li class="nav-ul-li"><a href="#" class="nav-ul-li-link">Home</a></li>
-        <li class="nav-ul-li">
-          <a href="#" class="nav-ul-li-link">Active Projects</a>
-        </li>
-        <li class="nav-ul-li">
-          <a href="#" class="nav-ul-li-link">Past Projects</a>
-        </li>
-        <li class="nav-ul-li">
-          <a href="#" class="nav-ul-li-link">About Me</a>
+    <header class="header" id="home">
+      <section class="profile">
+        <img class="profile-image" src="" alt="" />
+        <h1 class="profile-name">Jon Pynes</h1>
+      </section>
+      <nav class="nav">
+        <img src="./Assests/Hamburger Menu.svg" alt="">
+        <ul class="nav-ul">
+          <li class="nav-ul-li">
+            <a href="#home" class="nav-ul-li-link">Home</a>
+          </li>
+          <li class="nav-ul-li">
+            <a href="#active-projects" class="nav-ul-li-link"
+              >Active Projects</a
+            >
+          </li>
+          <li class="nav-ul-li">
+            <a href="#past-projects" class="nav-ul-li-link">Past Projects</a>
+          </li>
+          <li class="nav-ul-li">
+            <a href="#about" class="nav-ul-li-link">About Me</a>
+          </li>
+          <li class="nav-ul-li">
+          <a href="#contact" class="nav-ul-li-link">Contact</a>
         </li>
       </ul>
-    </nav>
+      </nav>
+    </header>
+    <section class="video">
+      <iframe
+        width="500"
+        height="500"
+        src="https://www.youtube.com/watch?v=CH5oEpGj3TU&ab_channel=JonPynes"
+      >
+      </iframe>
+    </section>
+    <main class="main">
+      <section class="project" id="active-projects">
+        <h2 class="project-title">Active Projects</h2>
+        <div class="container-project-image">
+          <img class="project-image" src="" alt="" />
+        </div>
+      </section>
+      <section class="project">
+        <h2 class="projects-title" id="past-projects">Past Projects</h2>
+        <div class="container-project-image">
+          <img class="project-image" src="" alt="" />
+        </div>
+      </section>
+      <section class="about" id="about">
+        <h2 class="about-me">What I Bring</h2>
+        <p class="about-me-paragraph">
+          <p>A joy in solving problems.</p> <p>Work ethic.</p> <p>Vision.</p> <p>UX/UI Design Training.</p>
+          <p>Sales experience.</p> <p>Profit driven.</p> <p>A love for the out-doors.</p> <p>Married &
+            two Babies!</p>
+        </p>
+      </section>
+      <section class="contact">
+        <h2 class="contact" id="contact">Contact</h2>
+        <div class="container-contact-logo">
+          <div class="contact-logo-linkedin">
+            <img
+              src="./Assests/linkedin 1.svg"
+              alt="LinkedIn"
+              class="contact-logo-linkedin-image"
+            />
+          </div>
+          <div class="contact-logo-sms">
+            <img
+              src="./Assests/sms 1.svg"
+              alt="Text SMS"
+              class="contact-logo-sms-image"
+            />
+          </div>
+          <div class="contact-logo-github">
+            <img
+              src="./Assests/github 1.svg"
+              alt="GitHub"
+              class="contact-logo-github-image"
+            />
+          </div>
+        </div>
+      </section>
+      <footer class="footer"><p class="footer-paragraph">©2021 Jonathan Pynes, Inc. All rights reserved</p></footer>
+    </main>
   </body>
 </html>
