@@ -30,20 +30,5 @@
 .profile-name {
   display: flex;
   flex-direction: column;
-  color: blue;
-}
-
-body {
-  background-color: #120828;
-  color: #ffe5cf;
-}
-
-a {
-  color: #ffe5cf;
-}
-
-ul {
-  list-style-type: none;
-}
-
-/*# sourceMappingURL=main.css.map */
+  color: red;
+}/*# sourceMappingURL=homepage.css.map */

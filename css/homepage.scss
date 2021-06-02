@@ -1,9 +1,40 @@
 .header {
+  width: 100vh;
   display: flex;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-ul {
+  margin: 0;
+  padding: 0;
+}
+// .container-profile-image {
+//   display: inline-block;
+//   width: 150px;
+//   height: 150px;
+//   border-radius: 50%;
+
+//   background-repeat: no-repeat;
+//   background-position: center center;
+//   background-size: cover;
+// }
+.profile-image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-position: center;
 }
 .profile-name {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  color: blue;
 }
