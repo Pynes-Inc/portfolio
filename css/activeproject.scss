@@ -3,5 +3,14 @@
   font-weight: 500;
   font-size: 48px;
   line-height: 65px;
-  align-content: center;
+  text-align: center;
+}
+.container-project-image {
+  width: 100vw;
+  object-fit: cover;
+}
+.project-image {
+  object-fit: cover;
+  width: 100vw;
+  background-position: center;
 }
