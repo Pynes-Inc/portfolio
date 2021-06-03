@@ -1,13 +1,34 @@
 @import "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap";
-.header {
-  display: flex;
-}
-
 .profile {
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
+}
+
+.profile-image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-position: center;
+  object-fit: cover;
+}
+
+.profile-name {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 65px;
+  align-content: center;
+}
+
+.hamburger {
+  position: fixed;
+  top: 3rem;
+  right: 2rem;
+  background-color: #120828;
 }
 
 .nav {
@@ -28,24 +49,6 @@
 
 .hidden {
   display: none;
-}
-
-.profile-image {
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
-  background-position: center;
-  object-fit: cover;
-}
-
-.profile-name {
-  display: flex;
-  flex-direction: column;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 65px;
-  align-content: center;
 }
 
 .video {
