@@ -1,8 +1,12 @@
 .about {
-  width: 100vw;
-  background-image: url("../Assests/mixkit-person-wearing-a-vr-mask-in-a-virtual-reality-room-64-original.png");
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  background-image: url("");
   background-position: center;
   background-size: cover;
+  margin-bottom: 7rem;
 }
 
 .about-me {
@@ -11,6 +15,42 @@
   font-size: 48px;
   line-height: 65px;
   align-content: center;
+}
+
+.contact {
+  margin-bottom: 7rem;
+}
+
+.contact-title {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 65px;
+  align-content: center;
+}
+
+.container-contact-logo {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contact-logo-linkedin {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-logo-sms {
+  grid-area: 2/2/3/3;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-logo-github {
+  grid-area: 1/3/1/3;
+  display: flex;
+  justify-content: flex-start;
 }
 
 /*# sourceMappingURL=aboutme.css.map */

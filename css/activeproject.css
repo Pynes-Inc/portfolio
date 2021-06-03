@@ -7,13 +7,13 @@
 }
 
 .container-project-image {
-  width: 100vw;
+  width: inherit;
   object-fit: cover;
 }
 
 .project-image {
   object-fit: cover;
-  width: 100vw;
+  width: 100%;
   background-position: center;
 }
 
