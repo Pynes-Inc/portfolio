@@ -4,7 +4,7 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
 }
 
 .profile-image {
@@ -46,7 +46,6 @@
   top: 3rem;
   padding: 0.5rem;
   z-index: 1;
-  background-color: #120820;
 }
 
 .nav-ul-li-link {
