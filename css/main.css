@@ -29,7 +29,6 @@
   position: fixed;
   top: 3rem;
   right: 2rem;
-  background-color: #120828;
 }
 
 .nav {
@@ -141,7 +140,7 @@ html {
 body {
   margin: 0;
   margin-top: 2rem;
-  background-color: #120828;
+  background-color: #120820;
   color: #ffe5cf;
   overflow-x: hidden;
 }
