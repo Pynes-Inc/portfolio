@@ -5,7 +5,7 @@ document.querySelector(".hamburger").onclick = () =>
   overlay.classList.toggle("hidden");
 
 function hideLink() {
-  console.log(this);
+  this.onclick = () => overlay.classList.toggle("hidden");
 }
 let links = document.querySelectorAll(".nav-ul-li-link");
 links.forEach((link) => link.addEventListener("click", hideLink));
