@@ -165,6 +165,11 @@
   justify-content: flex-start;
 }
 
+@media screen and (min-width: 992px) {
+  .contact-title {
+    margin-bottom: 7rem;
+  }
+}
 html {
   overflow-x: hidden;
 }
