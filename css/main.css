@@ -73,6 +73,12 @@
   text-align: center;
 }
 
+@media screen and (min-width: 992px) {
+  .video-iframe {
+    width: 50%;
+    height: 100%;
+  }
+}
 .project-title {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
@@ -92,6 +98,18 @@
   background-position: center;
 }
 
+.project {
+  margin-top: 10rem;
+}
+
+.about {
+  margin-top: 10rem;
+}
+
+.contact {
+  margin-top: 10rem;
+}
+
 .about {
   display: flex;
   flex-direction: column;
@@ -105,6 +123,10 @@
   font-size: 48px;
   line-height: 65px;
   align-content: center;
+}
+
+.about-me-paragraph {
+  font-size: 2rem;
 }
 
 .contact {

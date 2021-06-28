@@ -69,3 +69,10 @@
 .footer {
   text-align: center;
 }
+
+@media screen and (min-width: 992px) {
+  .video-iframe {
+    width: 50%;
+    height: 100%;
+  }
+}
