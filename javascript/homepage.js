@@ -13,10 +13,10 @@ links.forEach((link) => link.addEventListener("click", hideLink));
 //under construction alert
 
 function excuseMyMess() {
-  alert("Excuse my mess - still working on this portion");
+  alert("Under Construction - Excuse My Mess");
 }
 
-let handleExcuseMyMess = document.querySelectorAll(".project-image");
+let handleExcuseMyMess = document.querySelectorAll(".project");
 handleExcuseMyMess.forEach((handleExcuseMyMess) =>
   handleExcuseMyMess.addEventListener("click", excuseMyMess)
 );
